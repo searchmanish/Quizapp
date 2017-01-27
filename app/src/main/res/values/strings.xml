@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QuizBox</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titles">
+        <item>PHYSICS</item>
+        <item>CHEMISTRY</item>
+        <item>BIOLOGY</item>
+        <item>MATHEMATICS</item>
+        <item>HISTORY</item>
+        <item>GEOGRAPHY</item>
+        <item>COMPUTER</item>
+        <item>HISTORY</item>
+        <item>ABC</item>
+        <item>ABCD</item>
+        <item>ABCDE</item>
+        <item>ABCDEF</item>
+    </string-array>
+    <string-array name="description">
+        <item>PHYS</item>
+        <item>CHEM</item>
+        <item>BIOL</item>
+        <item>MATH</item>
+        <item>HIST</item>
+        <item>GEO</item>
+        <item>COMP</item>
+        <item>HIST</item>
+        <item>DESCRIBE</item>
+        <item>DESCRIBE</item>
+        <item>DESCRIBE</item>
+        <item>DESCRIBE</item>
+        <item>DESCRIBE</item>
+    </string-array>
+
+
+
+
+</resources>

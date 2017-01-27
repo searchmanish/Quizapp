@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item
+            android:id="@+id/highscores"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Highscores" />
+        <item
+            android:id="@+id/reward"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reward" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/account"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Account" />
+        </menu>
+    </item>
+
+</menu>

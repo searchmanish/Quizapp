@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.quizapp.quizbox.Login.Register">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="Enter MobileNumber"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:id="@+id/mobileno" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:maxLength="30"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/mobileno"
+        android:id="@+id/name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:maxLength="20"
+        android:hint="Enter Password"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/name"
+        android:id="@+id/password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ReEnter Password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/password"
+        android:id="@+id/conpassword" />
+
+    <ImageButton
+        android:src="@drawable/register"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conpassword"
+        android:id="@+id/button" />
+
+</RelativeLayout>
